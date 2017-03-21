@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle linter-wast",
+        "command": "linter-wast:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "linter-wast",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "linter-wast:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

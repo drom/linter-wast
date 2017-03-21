@@ -1,0 +1,30 @@
+{
+  "name": "linter-wast",
+  "main": "./lib/linter-wast",
+  "version": "0.1.0",
+  "description": "WebAssembly linter",
+  "keywords": [
+    "WebAssembly",
+    "linter",
+    "WASM",
+    "WAST"
+  ],
+  "repository": "https://github.com/drom/linter-wast",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "wast-parser": "^0.24.0"
+  },
+  "package-deps": [
+    "linter"
+  ],
+  "providedServices": {
+   "linter": {
+     "versions": {
+       "2.0.0": "provideLinter"
+     }
+   }
+ }
+}
