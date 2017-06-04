@@ -1,7 +1,7 @@
 {
   "name": "linter-wast",
   "main": "./lib/linter-wast",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "WebAssembly linter",
   "keywords": [
     "WebAssembly",
